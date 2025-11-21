@@ -160,14 +160,6 @@ nav:
     - "speed-upgrade-generator": "generators/speed-upgrade-generator.md"
     - "storage-upgrade-generator": "generators/storage-upgrade-generator.md"
 
-  - home:
-    - "announcements": "home/announcements.md"
-    - "discussion": "home/discussion.md"
-    - "introduction": "home/introduction.md"
-    - "links": "home/links.md"
-    - "rules": "home/rules.md"
-    - "server-messages": "home/server-messages.md"
-
   - items:
     - "big-gem": "items/big-gem.md"
     - "clone-potion": "items/clone-potion.md"
