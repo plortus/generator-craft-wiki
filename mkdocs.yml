@@ -1,3 +1,5 @@
+site_url: https://plortus.github.io/generator-craft-wiki/
+use_directory_urls: false
 site_name: "GeneratorCraft Wiki"
 site_description: "GeneratorCraft mod wiki — converted from Discord export."
 theme:
