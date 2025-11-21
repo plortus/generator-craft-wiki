@@ -1,5 +1,9 @@
 site_name: "GeneratorCraft Wiki"
 site_description: "GeneratorCraft mod wiki — converted from Discord export."
+
+site_url: https://plortus.github.io/generator-craft-wiki/
+use_directory_urls: false
+
 theme:
   name: material
   palette:
@@ -9,13 +13,16 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
+
 plugins:
   - search
+
 markdown_extensions:
   - admonition
   - codehilite
   - toc:
       permalink: true
+
 nav:
   - biome of wealth:
     - "abandoned-slot-machine": "biome-of-wealth/abandoned-slot-machine.md"
@@ -23,6 +30,7 @@ nav:
     - "fortunite": "biome-of-wealth/fortunite.md"
     - "money-sheep": "biome-of-wealth/money-sheep.md"
     - "money-tree": "biome-of-wealth/money-tree.md"
+
   - changelog archives:
     - "1-0-0": "changelog-archives/1-0-0.md"
     - "1-0-1": "changelog-archives/1-0-1.md"
@@ -67,6 +75,7 @@ nav:
     - "1-4-0": "changelog-archives/1-4-0.md"
     - "1-4-1": "changelog-archives/1-4-1.md"
     - "1-4-2": "changelog-archives/1-4-2.md"
+
   - commands:
     - "addcurrency": "commands/addcurrency.md"
     - "bank": "commands/bank.md"
@@ -90,11 +99,13 @@ nav:
     - "slots": "commands/slots.md"
     - "splitorsteal": "commands/splitorsteal.md"
     - "tip": "commands/tip.md"
+
   - corruption:
     - "corrupted-core": "corruption/corrupted-core.md"
     - "corrupted-shard": "corruption/corrupted-shard.md"
     - "dnomaid": "corruption/dnomaid.md"
     - "sword-of-corruption": "corruption/sword-of-corruption.md"
+
   - currency features:
     - "bank-token": "currency-features/bank-token.md"
     - "banking": "currency-features/banking.md"
@@ -102,15 +113,18 @@ nav:
     - "currency-items": "currency-features/currency-items.md"
     - "death-losing-currency": "currency-features/death-losing-currency.md"
     - "mob-killing": "currency-features/mob-killing.md"
+
   - enchantingment:
     - "elite-enchantsmith-villager": "enchantingment/elite-enchantsmith-villager.md"
     - "random-book-bundles": "enchantingment/random-book-bundles.md"
     - "rng-miner-enchantment": "enchantingment/rng-miner-enchantment.md"
+
   - events:
     - "corruption": "events/corruption.md"
     - "emptix-collection": "events/emptix-collection.md"
     - "gem-boost": "events/gem-boost.md"
     - "item-hoarder": "events/item-hoarder.md"
+
   - features:
     - "advertisements": "features/advertisements.md"
     - "combat-log": "features/combat-log.md"
@@ -124,6 +138,7 @@ nav:
     - "watermark": "features/watermark.md"
     - "wealthy-mobs": "features/wealthy-mobs.md"
     - "worldbank-economy": "features/worldbank-economy.md"
+
   - gamerules:
     - "coin-multiplier-limit": "gamerules/coin-multiplier-limit.md"
     - "combat-logging": "gamerules/combat-logging.md"
@@ -132,16 +147,19 @@ nav:
     - "do-mob-spawning-generatorcraft": "gamerules/do-mob-spawning-generatorcraft.md"
     - "duper-limits": "gamerules/duper-limits.md"
     - "duper-price": "gamerules/duper-price.md"
+
   - gem core:
     - "gem-core": "gem-core/gem-core.md"
     - "gem-core-shrine": "gem-core/gem-core-shrine.md"
     - "ultimate-shiny-breaker": "gem-core/ultimate-shiny-breaker.md"
+
   - generators:
     - "compact-upgrade-generator": "generators/compact-upgrade-generator.md"
     - "generator-core": "generators/generator-core.md"
     - "generator-upgrade-unit": "generators/generator-upgrade-unit.md"
     - "speed-upgrade-generator": "generators/speed-upgrade-generator.md"
     - "storage-upgrade-generator": "generators/storage-upgrade-generator.md"
+
   - home:
     - "announcements": "home/announcements.md"
     - "discussion": "home/discussion.md"
@@ -149,6 +167,7 @@ nav:
     - "links": "home/links.md"
     - "rules": "home/rules.md"
     - "server-messages": "home/server-messages.md"
+
   - items:
     - "big-gem": "items/big-gem.md"
     - "clone-potion": "items/clone-potion.md"
@@ -163,6 +182,7 @@ nav:
     - "omega-fuel": "items/omega-fuel.md"
     - "totem-of-wealth": "items/totem-of-wealth.md"
     - "ultra-anvil": "items/ultra-anvil.md"
+
   - lootbox items:
     - "axe-of-judgement": "lootbox-items/axe-of-judgement.md"
     - "big-mayor": "lootbox-items/big-mayor.md"
@@ -176,6 +196,7 @@ nav:
     - "techno-blade": "lootbox-items/techno-blade.md"
     - "the-gamblers-edge": "lootbox-items/the-gamblers-edge.md"
     - "worn-out-axe": "lootbox-items/worn-out-axe.md"
+
   - lootboxes:
     - "lootbox": "lootboxes/lootbox.md"
     - "lootbox-common": "lootboxes/lootbox-common.md"
@@ -186,10 +207,12 @@ nav:
     - "lootbox-mythic": "lootboxes/lootbox-mythic.md"
     - "lootbox-rare": "lootboxes/lootbox-rare.md"
     - "lootbox-uncommon": "lootboxes/lootbox-uncommon.md"
+
   - shopping & upgrades:
     - "gem-shop": "shopping-&-upgrades/gem-shop.md"
     - "generatorcraft-store": "shopping-&-upgrades/generatorcraft-store.md"
     - "p2w-store": "shopping-&-upgrades/p2w-store.md"
+
   - special lootboxes:
     - "lootbox-corrupted": "special-lootboxes/lootbox-corrupted.md"
     - "lootbox-dante": "special-lootboxes/lootbox-dante.md"
