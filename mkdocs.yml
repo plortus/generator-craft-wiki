@@ -19,16 +19,6 @@ markdown_extensions:
   - toc:
       permalink: true
 nav:
-  - _3:
-    - "general": "_3/general.md"
-    - "glory-to-the-motherland": "_3/glory-to-the-motherland.md"
-    - "illegal-dump": "_3/illegal-dump.md"
-    - "imagine-using-view-hidden-channels-nerd": "_3/imagine-using-view-hidden-channels-nerd.md"
-    - "logs": "_3/logs.md"
-    - "new-channel": "_3/new-channel.md"
-    - "slightly-more-legal-dump": "_3/slightly-more-legal-dump.md"
-    - "something": "_3/something.md"
-    - "the-n-word-repeated-5000-times": "_3/the-n-word-repeated-5000-times.md"
   - biome of wealth:
     - "abandoned-slot-machine": "biome-of-wealth/abandoned-slot-machine.md"
     - "biome-of-wealth": "biome-of-wealth/biome-of-wealth.md"
@@ -206,5 +196,3 @@ nav:
     - "lootbox-corrupted": "special-lootboxes/lootbox-corrupted.md"
     - "lootbox-dante": "special-lootboxes/lootbox-dante.md"
     - "lootbox-weapon": "special-lootboxes/lootbox-weapon.md"
-  - verification [1339530857433796687]:
-    - "verification": "verification-[1339530857433796687]/verification.md"
